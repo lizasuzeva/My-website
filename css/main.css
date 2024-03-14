@@ -77,40 +77,37 @@ html, body {
 
 /* Header */
 
-/* Стили для мобильных устройств */
 @media only screen and (max-width: 768px) {
   .header {
-    padding: 20px 0; /* Уменьшаем внешние отступы для мобильных устройств */
+    padding: 20px 0;
   }
 
   .container2 {
-    padding: 0 15px; /* Уменьшаем внутренние отступы */
+    padding: 0 15px; 
   }
 
   .header__wrapper {
-    font-size: 16px; /* Уменьшаем размер шрифта для мобильных устройств */
-    line-height: 1.5; /* Устанавливаем межстрочный интервал */
+    font-size: 16px; 
+    line-height: 1.5; 
   }
   .header__title1, .header__title2, .header__title3 {
     color: #3D1515; 
 }
 
-  /* Ваши стили */
   .header__wrapper ol {
-    padding-left: 25px; /* Убираем отступ слева у списка */
+    padding-left: 25px; 
   }
 
   .header__wrapper ol li {
-    margin-bottom: 10px; /* Устанавливаем отступ между элементами списка */
+    margin-bottom: 10px; 
   }
 
   .header__wrapper ol li a {
-    color: #000000; /* Цвет ссылок */
-    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #000000; 
+    text-decoration: none; 
   }
 }
 
-/* Стили для ноутбуков и компьютеров */
 @media only screen and (min-width: 769px) {
   .header {
     padding: 40px 0;
@@ -157,10 +154,10 @@ html, body {
 
 .l.img {
   max-width: 295px;
-  height: auto; /* Автоматический размер по высоте для поддержки адаптивности */
-  position: relative; /* Изменено на относительное позиционирование */
-  margin-left: auto; /* Центрирование по горизонтали */
-  margin-right: auto; /* Центрирование по горизонтали */
+  height: auto; 
+  position: relative; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 }
 
@@ -249,9 +246,9 @@ table,
     text-align: center; 
     font-size: 20px; 
     font-family: "Inter";
-    font-size: 20px; /* Adjust font size as needed */
-    width: 50%; /* Set equal width for all table cells */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    font-size: 20px; 
+    width: 50%; 
+    box-sizing: border-box; 
 
   }
   
@@ -262,21 +259,21 @@ table,
 
 @media only screen and (max-width: 767px) {
   .header__wrapper1 {
-    left: 0; /* Adjust the left position to align center */
-    width: 100%; /* Set width to 100% to occupy full width */
-    padding: 0; /* Remove padding to fit within the screen */
-    position: relative; /* Change position to relative for proper alignment */
+    left: 0; 
+    width: 100%; 
+    padding: 0; 
+    position: relative; 
   }
 
   .header__wrapper1 table {
-    width: 100%; /* Make the table width 100% for smaller screens */
+    width: 100%; 
   }
 
   .header__wrapper1 table td,
   .header__wrapper1 table th {
-    font-size: 16px; /* Reduce font size for better readability on small screens */
-    width: 50%; /* Set equal width for all table cells */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+    font-size: 16px; 
+    width: 50%; 
+    box-sizing: border-box; 
   }
 }
   
@@ -310,7 +307,7 @@ table,
 
 @media screen and (max-width: 600px) {
   .title-2 {
-    font-size: 40px; /* Измените размер шрифта на меньший */
+    font-size: 40px; 
   }
 }
 
@@ -359,10 +356,10 @@ table,
 
 @media screen and (max-width: 767px) {
   .bio__wrapper {
-    position: relative; /* Изменение позиции на относительную для мобильных устройств */
-    top: auto; /* Сброс вертикального смещения */
-    left: auto; /* Сброс горизонтального смещения */
-    margin-top: 20px; /* Небольшой отступ сверху для разделения фотографии и текста */
+    position: relative; 
+    top: auto; 
+    left: auto; 
+    margin-top: 20px; 
   }
 
   .bio__title {
@@ -372,7 +369,7 @@ table,
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 2.2;/* Выравнивание заголовка по центру */
+    line-height: 2.2;
   }
 
   .bio__title h1 {
